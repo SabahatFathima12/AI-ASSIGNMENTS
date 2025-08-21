@@ -1,0 +1,13 @@
+user@sabahat:~/AI_ASSIGNMENTS$ /bin/python3 /home/user/AI_ASSIGNMENTS/ai2.py
+
+Example 1:
+Best First Search  → Path length: 2, Path: [(0, 0), (1, 1)]
+A* Search          → Path length: 2, Path: [(0, 0), (1, 1)]
+
+Example 2:
+Best First Search  → Path length: 4, Path: [(0, 0), (0, 1), (1, 2), (2, 2)]
+A* Search          → Path length: 4, Path: [(0, 0), (0, 1), (1, 2), (2, 2)]
+
+Example 3:
+Best First Search  → Path length: -1, Path: 
+A* Search          → Path length: -1, Path: 
