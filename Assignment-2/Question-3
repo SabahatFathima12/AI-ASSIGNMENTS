@@ -1,0 +1,5 @@
+Comparison of Best First Search and A* Search
+
+The performance of Best First Search (Greedy Search) and A Search* differs in both accuracy and efficiency. Best First Search relies solely on the heuristic distance to the goal, which allows it to explore fewer nodes and often reach the destination quickly. However, this comes at the cost of optimality, since the algorithm does not account for the path cost already traveled. As a result, it may produce a longer or suboptimal path, or fail to find the shortest one in certain cases.
+
+On the other hand, A Search* balances both the actual path cost (g) and the estimated distance (h). This ensures that A* always finds the shortest path when one exists, as shown in the provided test cases. While A* may take more time and memory compared to Best First Search, it guarantees correctness and optimality. Therefore, Best First Search is better suited for faster but approximate solutions, while A* is preferred in scenarios where accuracy and shortest path are essential.
